@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "cross-env NITRO_PRESET=node-cluster nuxt build",
+    "build": "nuxt build",
     "dev": "nuxt dev",
     "start": "cross-env NITRO_CLUSTER_WORKERS=4 node ./.output/server/index.mjs",
     "generate": "nuxt generate",
